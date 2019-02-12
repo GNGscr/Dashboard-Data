@@ -1,5 +1,6 @@
 import styles from '../css/globals.css'
 import main from './index';
+require('slick-carousel');
 
 
 const one = window.addEventListener('click', function openOne() {
@@ -13,7 +14,6 @@ const one = window.addEventListener('click', function openOne() {
 window.removeEventListener('click', one);
 
 
-// require('slick-carousel');
 
 
 // import * as helperModule from './my-helper-module';
