@@ -1,0 +1,734 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    text-align: center;
+    position: relative;
+    overflow-x: hidden;
+}
+.element {
+    background-color: skyblue;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+p, h3 {
+    color: #fff;
+}
+h2 {
+    font-size: 26px;
+}
+header {
+    margin-top: 0;
+}
+.carousalWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 30vw;
+}
+.carousalWrapper h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    flex-grow: 1;
+    color: #000;
+    border: 1px solid red;
+}
+.slogan {
+    /* font-size: .8em; */
+    font-size: 13px;
+    line-height: 36px;
+    font: 'opensanshebrew-regular', sans-serif, arial;
+}
+.topHeader {
+    position: fixed;
+    width: 100vw;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #094fa3;
+    color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.container {
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    direction: rtl;
+    box-shadow: 0 0.01rem 0.8rem dimgrey;
+}
+.logo {
+    display: flex;
+    height: 60px;
+    flex-grow: 1;
+    background-color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logoImg {
+    height: 104px;
+    width: 118px;
+    background-image: url(https://www.hazi-hinam.co.il/dist/img/brandNew.png);
+    background-repeat: no-repeat;
+    z-index: 1031;
+}
+ul {
+    width: 60vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;   
+    direction: rtl;
+    background-color: white;
+}
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    /* padding: 0 6px 0; */
+    color: black;
+}
+.container span {
+    margin: 0;
+    padding: 0;
+    height: 10px;
+    width: 15px;
+}
+/* li span {
+    background-color: black;
+} */
+.divider {
+    width: 1px;
+    height: 40px;
+    background-color: #666;
+}
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.media {
+    display: flex;
+    flex-grow: 1;
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.wheelchair {
+    margin: 0 5px;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #555; 
+    color: #fff;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.wheelchair:hover {
+    background-color: #999; 
+    color: #444;
+}
+.instagram {
+    margin: 0 5px;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #555;
+    color: #fff;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.instagram:hover {
+    background-color: #999; 
+    color: #444;
+}
+.youtube {
+    margin: 0 5px;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.youtube:hover {
+    background-color: #999; 
+    color: #444;
+}
+.facebook {
+    margin: 0 5px;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #094fa3;
+    color: #fff;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.facebook:hover {
+    background-color: #999; 
+    color: #444;
+}
+.hamburger {
+    display: none;
+}
+.wrapper {
+    background-image: url(https://www.hazi-hinam.co.il/media/2197/%D7%97%D7%A6%D7%99%D7%97%D7%99%D7%A0%D7%9D_%D7%94%D7%9E%D7%A8%D7%9B%D7%91%D7%94_%D7%97%D7%95%D7%A5-1.jpg?width=1905);
+    background-position-y: center;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 95px;
+    /* border: 1px solid red; */
+    height: 586px;
+    width: 100vw;
+}
+.wrapperMask {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.ordersWrapper {
+    background-image: url(https://www.hazi-hinam.co.il/dist/img/img41.png);
+    height: 350px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.orders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.orders p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid violet; */
+    flex-direction: column;
+    height: 35px;
+    width: 350px;
+    font-size: .8em;
+    color: black;
+}
+.mainIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid violet; */
+}
+.computerImg {
+    /* position: absolute; */
+    /* border: 1px solid blue; */
+    background-image: url(https://www.hazi-hinam.co.il/dist/img/img03.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 245px;
+    right: 0;
+    width: 231px;
+}
+.carImg {
+    /* position: absolute; */
+    background-image: url(https://www.hazi-hinam.co.il/dist/img/img04.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 245px;
+    width: 231px;
+    /* border: 1px solid blue; */
+}
+.icons {
+    height: 220px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    direction: rtl;
+    /* border: 1px solid blueviolet; */
+}
+.iconWrapper {
+    height: 140px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 1px solid green; */
+}
+.iconWrapper p {
+    font-size: 10px;
+    /* border: 1px solid black; */
+    width: 80px;
+    height: 20%;
+}
+.icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid black;
+}
+.orderButton {
+    height: 50px;
+    width: 170px;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #094fa3;
+    border: 1px solid black; 
+    color: #fff;
+    font-size: 12px;
+}
+.ourDiscounts {
+    width: 100vw;
+    height: 500px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.ourDiscounts p {
+    /* border: 1px solid blue; */
+    color: black;
+}
+.boxes {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.box {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+.linkImg {
+    height: 70px;
+    width: 100%;
+    border: 1px solid black;
+    direction: rtl;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #094fa3;
+}
+.linkImg p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20px;
+    color: #fff;
+    font-size: 13px
+}
+.linkIcn {
+    background-color: lightblue;
+    height: 30px;
+    width: 30px;
+}
+.button img {
+    margin: 1vw;
+}
+.image {
+    background-color: lightblue;
+    height: 228px;
+    width: 100%;
+}
+.linkTxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+.linkTxt p {
+    display: flex;
+    justify-content: flex-start;
+}
+.linkBtn {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.autofocus {
+    background-image: url(https://www.hazi-hinam.co.il/dist/img/img38.png?width=1358);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 277px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.autofocus .button {
+    padding: 0px;
+    margin: 0px;
+}
+.loremIpsum {
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.loremIpsum p {
+    color: black;
+}
+.sprite {
+    margin-top: 20px;
+    height: 362px;
+    width: 26.3vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.spriteBox {
+    margin: 20px;
+    height: 145px;
+    width: 145px;
+    background-color: lightblue;
+    border: 1px solid blue;
+}
+
+footer {
+    background-image: url(https://www.hazi-hinam.co.il/dist/img/pic02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    color: #fff;
+}
+.footerLeft, .footerRight{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.lowerFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    direction: rtl;
+}
+.lowerFooter ul {
+    width: 60vw;
+    margin-right: 10vw;
+}
+.lowerFooter li {
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+    margin: 0 10px;
+    transition: 1.8s;
+    padding-bottom: 2px;
+}
+.lowerFooter li:hover {
+    border-bottom: #094fa3 1px solid;
+}
+.lowerFooter .media {
+    width: 20vw;
+    justify-content: space-evenly;
+}
+.modal {
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 35vw;
+    width: 60vw;
+    background-color: #fff;
+    position: fixed;
+    right: 0vw;
+    top: 8vw;
+    border: 1px solid #777;
+}
+.modalBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -15vw;
+    right: 2vw;
+    background-color: #094fa3;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.3em;
+}
+.modal h1 {
+    font-size: 1.4em;
+    margin-bottom: 2vw;
+}
+.snifim {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 36vw;
+    direction: rtl;
+}
+.snif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    background-color: #094fa3;
+    color: #fff;
+    font-size: .75em;
+    margin: 1vw;
+}
+
+@media all and (max-width: 1200px) {
+
+}
+@media all and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .container {
+        align-items: flex-start;
+        height: 42px;
+    }
+    .logo {
+        height: 100%;
+        min-width: 35px;
+        justify-content: flex-start;
+    }
+    .logoImg {
+        width: 59px;
+        height: 52px;
+        background-size: 100%;
+        margin-top: -3vw;
+        margin-right: 3vw;
+    }
+    .icons {
+        width: 100%;
+    }
+    .icon {
+        height: 50px;
+        width: 50px;  
+        border: none;  
+    }
+    .carImg, .computerImg {
+        display: none;
+    }
+    .wrapper {
+        margin-top: 78px; 
+        height: 255px;
+        overflow-x: hidden;
+    }
+    .iconWrapper p {
+        font-size: 13px;
+        height: 65%;
+    }
+    .orderButton {
+        border-radius: 25px;
+    }
+    .ordersWrapper {
+        justify-content: center;
+        height: 240px;
+    }
+    .orders {
+        height: 200px;
+    }
+    .mainIcons {
+        height: 160px;
+    }
+    .iconWrapper {
+        height: 45%;
+    }
+    .media {
+        display: none;
+    }
+    .carousalWrapper h3 {
+        width: 25vw;
+    }
+    .ourDiscounts {
+        height: 100%;
+    }
+    .ourDiscounts p {
+        margin-top: 5vw;
+    }
+    .boxes {    
+        flex-direction: column;
+        margin: 5vw;
+    }
+    .box {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5vw;
+        height: 90vw;
+        width: 90vw;
+    }
+    h2 {
+        font-size: .8rem;
+        width: 225px;
+        height: 16px;
+    }
+    .sprite {
+        height: 100%;
+        width: 100%
+    }
+    .spriteBox {    
+        height: 85vw;
+        width: 90%;
+    }
+    .linkTxt {
+        height: 6px;
+        margin-top: -4vw;
+    }
+    .linkImg {
+        width: 100%;
+    }
+    .image {
+        width: 100%;
+        height: 100%;
+    }
+    .loremIpsum {
+        height: 100%;
+    }
+    .loremIpsum p {
+        margin-top: 5vw;
+    }
+    .autofocus {    
+        height: 210px;
+        background-size: 312%;
+    }
+    .button img {
+        margin: 1vw;
+    }
+    footer {
+        background-size: 300%;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .footerLeft, .footerRight {
+        width: 90vw;
+        align-items: flex-end;
+    }
+    footer p {
+        font-size: .8em;
+    }
+    footer h3 {
+        font-size: .8em;
+    }
+    .lowerFooter {
+        display: flex;
+        flex-wrap: wrap;
+        height: 30vw;
+    }
+    .listItem {
+        display: none;
+    }
+    .divider {
+        display: none;
+    }
+    ul {
+        display: none;
+    }
+    .lowerFooter ul {
+        display: flex;
+        width: 85vw;
+        margin-right: 0vw;
+    }
+    .lowerFooter li {
+        font-size: 15px;
+        margin: 0px 5px;
+        display: inline;
+        /* border: 1px solid red; */
+    }
+    .hamburger {
+        display: flex;
+        height: 80%;
+        width: 5vw;
+        background-color: red;
+    }
+}
