@@ -19,6 +19,5 @@ Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
 •	ex.html?devices=11,12,22,23,31,34&protocols=1,2,3&times=2
 •	The Clear option should clear all checkboxes.
 The page is responsive 
->>>>>>> 2fd77565310814a97041b613a285645554d6f992
-# Dashboard-Data
+
 
