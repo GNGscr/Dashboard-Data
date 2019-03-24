@@ -9,8 +9,6 @@ Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
 
 # Data-Dashboard
 
-<<<<<<< HEAD
-# Dashboard-From-Data
 =======
 •	All data for the form is loaded from the ex_data.json in the same folder (attached)
 •	When selecting a device group  - all the devices related to it are selected.
@@ -23,4 +21,4 @@ Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
 The page is responsive 
 >>>>>>> 2fd77565310814a97041b613a285645554d6f992
 # Dashboard-Data
-# Dashboard-From-Data
+
