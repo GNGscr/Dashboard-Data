@@ -12,7 +12,8 @@ module.exports = {
     },
     plugins: [
         new CopyWebpackPlugin([
-            { from: 'src/index.html' }
+            { from: 'src/index.html' },
+            { from: 'src/data' ,to:'data'}
         ]),
         new MiniCssExtractPlugin({
             filename: "css/globals.css"
@@ -56,7 +57,7 @@ module.exports = {
         ]
     },
     devServer: {
-        contentBase: path.join(__dirname, "dist"),
+        contentBase: './',
         // contentBase: path.join(__dirname, "dist"),
         compress: true,
         port: 4000,

@@ -1,736 +1,740 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
     box-sizing: border-box;
-}
-body{
-    background-color: white;
-    text-align: center;
-    position: relative;
-    overflow-x: hidden;
-}
-.element {
-    background-color: skyblue;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-}
-p, h3 {
-    color: #fff;
-}
-h2 {
-    font-size: 26px;
-}
-header {
-    margin-top: 0;
-}
-.carousalWrapper {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 30vw;
-}
-.carousalWrapper h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100vw;
-    flex-grow: 1;
-    color: #000;
-    border: 1px solid red;
-}
-.slogan {
-    /* font-size: .8em; */
-    font-size: 13px;
-    line-height: 36px;
-    font: 'opensanshebrew-regular', sans-serif, arial;
-}
-.topHeader {
-    position: fixed;
-    width: 100vw;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #094fa3;
-    color: #fff;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-.container {
-    position: fixed;
-    width: 100vw;
-    height: 60px;
-    top: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    direction: rtl;
-    box-shadow: 0 0.01rem 0.8rem dimgrey;
-}
-.logo {
-    display: flex;
-    height: 60px;
-    flex-grow: 1;
-    background-color: white;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.logoImg {
-    height: 104px;
-    width: 118px;
-    background-image: url(https://www.hazi-hinam.co.il/dist/img/brandNew.png);
-    background-repeat: no-repeat;
-    z-index: 1031;
-}
-ul {
-    width: 60vw;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;   
-    direction: rtl;
-    background-color: white;
-}
-li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 120px;
-    height: 100%;
-    text-decoration: none;
-    list-style-type: none;
-    background-color: white;
-    font-size: 1.1em;
-    cursor: pointer;
-    /* padding: 0 6px 0; */
-    color: black;
-}
-.container span {
     margin: 0;
     padding: 0;
-    height: 10px;
-    width: 15px;
-}
-/* li span {
-    background-color: black;
-} */
-.divider {
-    width: 1px;
-    height: 40px;
-    background-color: #666;
-}
-a {
-    text-decoration: none;
-    list-style-type: none;
-    color: black;
-}
-.media {
-    display: flex;
-    flex-grow: 1;
-    background-color: white;
-    width: 20%;
-    height: 100%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.wheelchair {
-    margin: 0 5px;
-    height: 32px;
-    width: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: #555; 
-    color: #fff;
-    transition: .3s ease-in-out;
-    cursor: pointer;
-}
-.wheelchair:hover {
-    background-color: #999; 
-    color: #444;
-}
-.instagram {
-    margin: 0 5px;
-    height: 32px;
-    width: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: #555;
-    color: #fff;
-    transition: .3s ease-in-out;
-    cursor: pointer;
-}
-.instagram:hover {
-    background-color: #999; 
-    color: #444;
-}
-.youtube {
-    margin: 0 5px;
-    height: 32px;
-    width: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: red;
-    color: #fff;
-    transition: .3s ease-in-out;
-    cursor: pointer;
-}
-.youtube:hover {
-    background-color: #999; 
-    color: #444;
-}
-.facebook {
-    margin: 0 5px;
-    height: 32px;
-    width: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: #094fa3;
-    color: #fff;
-    transition: .3s ease-in-out;
-    cursor: pointer;
-}
-.facebook:hover {
-    background-color: #999; 
-    color: #444;
-}
-.hamburger {
-    display: none;
+    font-family: sans-serif;
+    color: #333;
 }
 .wrapper {
-    background-image: url(https://www.hazi-hinam.co.il/media/2197/%D7%97%D7%A6%D7%99%D7%97%D7%99%D7%A0%D7%9D_%D7%94%D7%9E%D7%A8%D7%9B%D7%91%D7%94_%D7%97%D7%95%D7%A5-1.jpg?width=1905);
-    background-position-y: center;
-    background-position-x: right;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-top: 95px;
-    /* border: 1px solid red; */
-    height: 586px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: rgb(217, 230, 245);
     width: 100vw;
+    min-height: 100vh;
+    padding-top: 3vw;
 }
-.wrapperMask {
-    height: 100%;
+.form-base {
+    border-radius: 10px;
+    background-color: #fff;
+    width: 20vw;
+    margin-bottom: 3vw;
+    border: 1px solid #4f83c2;
+}
+.header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #4f83c2;
+    border-radius: 5px 5px 0 0;
+    padding-left: 15px;
+}
+.group-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #005789;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    height: 30px;
 }
-.ordersWrapper {
-    background-image: url(https://www.hazi-hinam.co.il/dist/img/img41.png);
-    height: 350px;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
+
+#devices > div:nth-child(5){
+    border-radius: 0 0 5px 5px;
 }
-.orders {
+.group-head h4 {
+    font-size: .9em;
+}
+.group-head-3 {
+    border-radius: 0 0 5px 5px;
+}
+.group {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 }
-.orders p {
+.devices {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid violet; */
     flex-direction: column;
-    height: 35px;
-    width: 350px;
-    font-size: .8em;
-    color: black;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
 }
-.mainIcons {
+.devices:nth-child(3) {
+    display: none;
+}
+.inner-form {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 1px solid violet; */
-}
-.computerImg {
-    /* position: absolute; */
-    /* border: 1px solid blue; */
-    background-image: url(https://www.hazi-hinam.co.il/dist/img/img03.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 245px;
-    margin-top: 35px;
-    right: 0;
-    width: 231px;
-}
-.carImg {
-    /* position: absolute; */
-    background-image: url(https://www.hazi-hinam.co.il/dist/img/img04.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-top: 85px;
-    height: 245px;
-    width: 231px;
-    /* border: 1px solid blue; */
-}
-.icons {
-    height: 220px;
-    width: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    direction: rtl;
-    /* border: 1px solid blueviolet; */
-}
-.iconWrapper {
-    height: 140px;
-    width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-direction: column;
-    /* border: 1px solid green; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.iconWrapper p {
-    font-size: 10px;
-    /* border: 1px solid black; */
-    width: 80px;
-    height: 20%;
+.devices-3 {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-.icon {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    border: 1px solid black;
-}
-.orderButton {
-    height: 50px;
-    width: 170px;
-    border-radius: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #094fa3;
-    border: 1px solid black; 
+.fa-caret-down, .fa-caret-right {
     color: #fff;
-    font-size: 12px;
 }
-.ourDiscounts {
-    width: 100vw;
-    height: 500px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.ourDiscounts p {
-    /* border: 1px solid blue; */
-    color: black;
-}
-.boxes {
-    width: 70vw;
+.device {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    height: 35px;
+    width: 100%;
     align-items: center;
+    /* border: 1px solid red; */
 }
-.box {
-    height: 300px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #333;
+input[type="checkbox"] {
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.checkbox {
+    width: 10%;
+    height: 30px;
     cursor: pointer;
 }
-.linkImg {
-    height: 70px;
-    width: 100%;
-    border: 1px solid black;
-    direction: rtl;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    background-color: #094fa3;
+.checkbox {
+    background: #fff;
 }
-.linkImg p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 20px;
-    color: #fff;
-    font-size: 13px
-}
-.linkIcn {
-    background-color: lightblue;
-    height: 30px;
-    width: 30px;
-}
-.button img {
-    margin: 1vw;
-}
-.image {
-    background-color: lightblue;
-    height: 228px;
-    width: 100%;
-}
-.linkTxt {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 50%;
-}
-.linkTxt p {
+p {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    font-weight: lighter;
+    font-size: .8em;
 }
-.linkBtn {
-    height: 50px;
-    width: 50px;
+.p_check {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    border: 1px solid black;
-    background-color: #fff;
-    border-radius: 50%;
+    width: 10%;
+    font-weight: lighter;
+    font-size: .8em;
 }
-.autofocus {
-    background-image: url(https://www.hazi-hinam.co.il/dist/img/img38.png?width=1358);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100vw;
-    height: 277px;
+.p_name {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    width: 100%;
+    font-weight: lighter;
+    font-size: .8em;
 }
-.buttons {
+h3 {
     display: flex;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-.autofocus .button {
-    padding: 0px;
-    margin: 0px;
-}
-.loremIpsum {
-    height: 500px;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-}
-.loremIpsum p {
-    color: black;
-}
-.sprite {
-    margin-top: 20px;
-    height: 362px;
-    width: 26.3vw;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.spriteBox {
-    margin: 20px;
-    height: 145px;
-    width: 145px;
-    background-color: lightblue;
-    border: 1px solid blue;
-}
-
-footer {
-    background-image: url(https://www.hazi-hinam.co.il/dist/img/pic02.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100vw;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-footer p {
-    color: #fff;
-}
-.footerLeft, .footerRight{
-    /* border: 1px solid red; */
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-}
-.lowerFooter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5px;
-    direction: rtl;
-}
-.lowerFooter ul {
-    width: 60vw;
-    margin-right: 10vw;
-}
-.lowerFooter li {
-    height: 40px;
-    width: 100px;
-    font-size: 14px;
-    margin: 0 10px;
-    transition: 1.8s;
-    padding-bottom: 2px;
-}
-.lowerFooter li:hover {
-    border-bottom: #094fa3 1px solid;
-}
-.lowerFooter .media {
-    width: 20vw;
-    justify-content: space-evenly;
-}
-.modal {
-    position: relative;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 35vw;
-    width: 60vw;
-    background-color: #fff;
-    position: fixed;
-    right: 0vw;
-    top: 8vw;
-    border: 1px solid #777;
-}
-.modalBtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    margin-top: -15vw;
-    right: 2vw;
-    background-color: #094fa3;
+    font-size: 16px;
+    font-weight: 100;
     height: 30px;
-    width: 30px;
-    border-radius: 50%;
+    margin: .9vw;
+}
+h4 {
     color: #fff;
-    font-size: 1.3em;
+    font-weight: lighter;
 }
-.modal h1 {
-    font-size: 1.4em;
-    margin-bottom: 2vw;
+.carret {
+    height: 10px;
+    width: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 14px;
+    cursor: pointer;
 }
-.snifim {
+.diviceDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.device-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 90%;
+    box-shadow: 0 0.2rem 0.1rem #edecec;
+}
+.deviceItem {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 15px;
+}
+.protocolItem {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 15px;
+}
+.protocol {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 15px;
+}
+.time {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 15px;
+}
+.periodItem {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 15px;
+}
+.protocls-list {
+    width: 90%;
+    box-shadow: 0 0.2rem 0.1rem #edecec;
+}
+.period {
+    width: 90%;
+    box-shadow: 0 0.2rem 0.1rem #edecec;
+}
+.protocolDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.periodDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.diviceHead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.protocolHead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.periodHead {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.btns {
+    margin: 1vw;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    height: 25vw;
-    width: 36vw;
-    direction: rtl;
+    width: 100%;
 }
-.snif {
+.startBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4f83c2;
+    color: #fff;
+}
+.startBtn p {
+    font-size: 1em;
+    color: #fff;
+}
+.fa-play {
+    margin-right: 10px;
+    color: #fff;
+}
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vw;
-    width: 10vw;
-    border-radius: 50%;
-    background-color: #094fa3;
-    color: #fff;
-    font-size: .75em;
-    margin: 1vw;
+    padding: 10px 20px;
+    font-size: .9rem;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    font-weight: 100;
 }
-
-@media all and (max-width: 1200px) {
-
-}
-@media all and (max-width: 768px) {
-    body {
+/* ======= Media queries ======= */
+@media all and (max-width: 500px) {
+    * {
         overflow-x: hidden;
-    }
-    .container {
-        align-items: flex-start;
-        height: 42px;
-    }
-    .logo {
-        height: 100%;
-        min-width: 35px;
-        justify-content: flex-start;
-    }
-    .logoImg {
-        width: 59px;
-        height: 52px;
-        background-size: 100%;
-        margin-top: -3vw;
-        margin-right: 3vw;
-    }
-    .icons {
-        width: 100%;
-    }
-    .icon {
-        height: 50px;
-        width: 50px;  
-        border: none;  
-    }
-    .carImg, .computerImg {
-        display: none;
+        width: 100vw;
     }
     .wrapper {
-        margin-top: 78px; 
-        height: 255px;
-        overflow-x: hidden;
-    }
-    .iconWrapper p {
-        font-size: 13px;
-        height: 65%;
-    }
-    .orderButton {
-        border-radius: 25px;
-    }
-    .ordersWrapper {
-        justify-content: center;
-        height: 240px;
-    }
-    .orders {
-        height: 200px;
-    }
-    .mainIcons {
-        height: 160px;
-    }
-    .iconWrapper {
-        height: 45%;
-    }
-    .media {
-        display: none;
-    }
-    .carousalWrapper h3 {
-        width: 25vw;
-    }
-    .ourDiscounts {
-        height: 100%;
-    }
-    .ourDiscounts p {
-        margin-top: 5vw;
-    }
-    .boxes {    
         flex-direction: column;
-        margin: 5vw;
-    }
-    .box {
-        justify-content: center;
+        width: 100vw;
         align-items: center;
-        margin-bottom: 5vw;
-        height: 90vw;
+    }
+    .form-base {
         width: 90vw;
     }
-    h2 {
-        font-size: .8rem;
-        width: 225px;
-        height: 16px;
-    }
-    .sprite {
-        height: 100%;
-        width: 100%
-    }
-    .spriteBox {    
-        height: 85vw;
-        width: 90%;
-    }
-    .linkTxt {
-        height: 6px;
-        margin-top: -4vw;
-    }
-    .linkImg {
-        width: 100%;
-    }
-    .image {
-        width: 100%;
-        height: 100%;
-    }
-    .loremIpsum {
-        height: 100%;
-    }
-    .loremIpsum p {
-        margin-top: 5vw;
-    }
-    .autofocus {    
-        height: 210px;
-        background-size: 312%;
-    }
-    .button img {
-        margin: 1vw;
-    }
-    footer {
-        background-size: 300%;
-        justify-content: space-around;
+    .btns {
         flex-direction: column;
     }
-    .footerLeft, .footerRight {
-        width: 90vw;
-        align-items: flex-end;
+    .startBtn {
+        width: 80vw;
     }
-    footer p {
-        font-size: .8em;
+    input {
+        width: 20px;
     }
-    footer h3 {
-        font-size: .8em;
+    .checkbox {
+        height: 5vw;
     }
-    .lowerFooter {
-        display: flex;
-        flex-wrap: wrap;
-        height: 30vw;
+    .radio {
+        height: 5vw;
     }
-    .listItem {
-        display: none;
+
+    .devices, .devices-3 {
+        padding-left: 10%;
     }
-    .divider {
-        display: none;
-    }
-    ul {
-        display: none;
-    }
-    .lowerFooter ul {
-        display: flex;
-        width: 85vw;
-        margin-right: 0vw;
-    }
-    .lowerFooter li {
-        font-size: 15px;
-        margin: 0px 5px;
-        display: inline;
-        /* border: 1px solid red; */
-    }
-    .hamburger {
-        display: flex;
-        height: 80%;
-        width: 5vw;
-        background-color: red;
-    }
+    h3 {
+        margin-left: 5vw;
+    } 
+    h4 {
+        margin-left: 1vw;
+    } 
 }
+
+
+
+/* 
+
+
+import styles from '../css/globals.css'
+import { inherits } from 'util';
+
+
+let templates = {};
+templates.protocolTemplate = `<div class="protocol"> 
+                    <div class='p_check' />
+                        <input type="checkbox" />                        
+                    </div>
+                    <div class="p_name">{{protocol_name}}</div>
+                `;
+templates.timeTemplate = `<div class="protocol"> 
+                    <div class='p_check' />
+                        <input type="radio" />                        
+                    </div>
+                    <div class="p_name">{{time_name}}</div>
+                `;
+                
+templates.summaryDevice = `<div class="deviceItem"><p>{{device_name}}</p></div>`;
+templates.summaryProtocols = `<div class="protocolItem"><p>{{protocol_s_name}}</p></div>`;
+templates.summaryTimes = `<div class="periodItem"><p>{{time_s_name}}</p></div>`;
+
+
+(function init() {
+    document.querySelector("#start").addEventListener("click", (e) => {
+        createSummary();
+    });
+
+    document.querySelector("#clear").addEventListener("click", (e) => {
+        clear();
+    });
+    
+    loadData();
+})();
+
+
+function loadData() {
+    fetch("./data/ex_data.json")
+        .then(res => res.json())
+        .then((data) => {
+            loadBDevicesByGroup(data.device_groups);
+            // appendCheckboxes(data.device_groups.devices);
+            CheckboxesAppendCheckToParent(data.device_groups);
+            // appendCheckboxes(data.device_groups[0].devices, data.device_groups[1].devices, data.device_groups[2].devices);
+            loadProtocols(data.protocols);
+            loadTimes(data.times);
+            fetchIds(data.device_groups, data.protocols, data.times);
+            caret3Toggle();
+            appendCheckboxes();
+        }
+    );
+}
+
+function loadBDevicesByGroup(groups) {
+    let groupHtml = document.querySelector('.group');
+
+    groups.forEach(group => {
+        let ghead = document.createElement('div');
+        ghead.classList.add('group-head');
+
+        let car = document.createElement('div');
+        car.classList.add('carret');
+        car.innerHTML = '<i class="fas fa-caret-down"></i>';
+
+        let gcheck = document.createElement('input');
+        gcheck.type = 'checkbox'
+        gcheck.name = group.name;
+        gcheck.value = group.name;
+
+        let gname = document.createElement('h4');
+        gname.innerText = group.name;
+
+        ghead.appendChild(car);
+        ghead.appendChild(gcheck);
+        ghead.appendChild(gname);
+
+        let devices = document.createElement('div');
+        devices.classList.add('devices');
+
+        group.devices.forEach(device => {
+            let div = document.createElement('div');
+            div.classList.add('device')
+
+            let p = document.createElement('p')
+
+            let checkbox = document.createElement('input')
+            checkbox.type = 'checkbox'
+            checkbox.classList.add('checkbox')
+            checkbox.dataset.name = device.name;
+            checkbox.checked = (device.active === 1) ? true : false;
+
+            p.innerText = device.name
+            div.appendChild(checkbox)
+            div.appendChild(p);
+
+            devices.appendChild(div)
+        });
+
+        groupHtml.appendChild(ghead);
+        groupHtml.appendChild(devices);
+
+    });
+}
+
+function loadProtocols(protocols) {
+    let protocolsHtml = document.querySelector('#protocols');
+
+    protocols.forEach(p => {
+        protocolsHtml.innerHTML += templates.protocolTemplate.replace("{{protocol_name}}", p.name);
+    });
+}
+
+function loadTimes(times) {
+    let timesHtml = document.querySelector('#times');
+
+    times.forEach(t => {
+        timesHtml.innerHTML += templates.timeTemplate.replace("{{time_name}}", t.name);
+    });
+}
+
+function createSummary() {
+    let summary = document.querySelector("#devicesSummary");
+    summary.innerHTML = '';
+    let elements = document.querySelectorAll("#devices input[type='checkbox']:checked");
+    console.log(elements)
+    elements.forEach(elm => {
+        if (elm.checked) {
+            summary.innerHTML += templates.summaryDevice.replace("{{device_name}}", elm.dataset.name);
+            console.log(elm.dataset)
+        }
+    });
+
+    let protocolsSum = document.querySelector("#protocolsSummary");
+    protocolsSum.innerHTML = '';
+    let elmProtocols = document.querySelectorAll("#protocols input[type='checkbox']:checked");
+    console.log(elmProtocols)
+
+    elmProtocols.forEach(p => {
+        if (p.checked) {
+            protocolsSum.innerHTML += templates.summaryProtocols.replace("{{protocol_s_name}}", p.dataset.name);
+        }
+    });
+
+    let timesSum = document.querySelector("#periodSummary");
+    timesSum.innerHTML = '';
+    let elmTimes = document.querySelectorAll("#times input[type='radio']:checked");
+    console.log(elmTimes)
+
+    elmTimes.forEach(t => {
+        if (t.checked) {
+            timesSum.innerHTML += templates.summaryTimes.replace("{{time_s_name}}", t.dataset.name);
+        }
+    });
+}
+
+function fetchIds(d, p, t) {
+    console.log(d)
+    console.log(p)
+    console.log(t)
+    d.forEach(g => {
+        // console.log(d[0].devices[0].id)
+    });
+}
+
+
+    // function check(e) {
+    //     let counter = 1;
+    //     let z = 2;
+    //     console.log("z: ", z)
+    //     console.log("counter: ", counter)
+    //     let da = `#devices > div:nth-child(${counter}) > input[type="checkbox"]`;
+    //     let za = `#devices > div:nth-child(${z}) input[type='checkbox']:checked`;
+    //     let fa = `#devices > div:nth-child(${z}) > div`;
+    //     let gfull = document.querySelectorAll(fa);
+    //     let gParnetCheckbox = document.querySelector(da);
+    //     let g1 =  document.querySelectorAll(za);
+    //     if(g1.length === gfull.length) {gParnetCheckbox.checked = true} else {gParnetCheckbox.checked = false}
+    //     counter += 2;
+    //     z += 2;
+    // }
+  
+    // for(let x = 1; x <= devices.length; x++) {
+    //     let g = 2;
+    //     let fa = `#devices > div:nth-child(${g}) > div`;
+    //     let gfull = document.querySelectorAll(fa);
+    //     gfull.forEach((g, i) => {
+    //         i++; // === 1
+    //         let y = 2;
+
+    //        let mishtane = `#devices > div:nth-child(${y}) > div:nth-child(${i})`;
+    //        document.querySelector(mishtane).addEventListener('change', (e, y, i) => {
+            
+    //         let da = `#devices > div:nth-child(${i}) > input[type="checkbox"]`;
+    //         let za = `#devices > div:nth-child(${y}) input[type='checkbox']:checked`;
+    //         let fa = `#devices > div:nth-child(${y}) > div`;
+
+    //         let gParnetCheckbox = document.querySelector(da);
+    //         let g1 =  document.querySelectorAll(za);
+
+    //         if(g1.length === gfull.length) {gParnetCheckbox.checked = true} else {gParnetCheckbox.checked = false}
+    //        });
+
+    //        y += 2;
+    //     });
+    //     g += 2;
+    // }
+
+
+
+
+// function appendCheckboxes(devices1, devices2, devices3){
+    function appendCheckboxes(){
+        
+        let gfull = document.querySelectorAll("#devices > div:nth-child(2) > div");
+        let gParnetCheckbox = document.querySelector('#devices > div:nth-child(1) > input[type="checkbox"]');
+    
+    gfull.forEach((g, i) => {
+        i++; // === 1
+        let fst_grp_devices = `#devices > div:nth-child(2) > div:nth-child(${i})`;
+        document.querySelector(fst_grp_devices).addEventListener('change', check);
+    });
+    function check(e) {
+        let g1 =  document.querySelectorAll("#devices > div:nth-child(2) input[type='checkbox']:checked");
+            if(g1.length === gfull.length) {gParnetCheckbox.checked = true} else {gParnetCheckbox.checked = false}
+    }
+
+
+    // ====== group 1 ======= //
+
+    // let checkedItem1 = document.querySelector("#devices > div:nth-child(2) > div:nth-child(1)").addEventListener('change', (e) => {
+    //     let g1 =  document.querySelectorAll("#devices > div:nth-child(2) input[type='checkbox']:checked");
+    //     if(g1.length === gfull.length) {gParnetCheckbox.checked = true} else {gParnetCheckbox.checked = false}
+    // });
+    // let checkedItem2 = document.querySelector("#devices > div:nth-child(2) > div:nth-child(2)").addEventListener('change', (e) => {
+    //     let g1 =  document.querySelectorAll("#devices > div:nth-child(2) input[type='checkbox']:checked");
+    //     if(g1.length === gfull.length) {gParnetCheckbox.checked = true} else {gParnetCheckbox.checked = false}
+    // });
+    // let checkedItem3 = document.querySelector("#devices > div:nth-child(2) > div:nth-child(3)").addEventListener('change', (e) => {
+    //     let g1 =  document.querySelectorAll("#devices > div:nth-child(2) input[type='checkbox']:checked");
+    //     if(g1.length === gfull.length) {gParnetCheckbox.checked = true} else {gParnetCheckbox.checked = false}
+    // });
+    // let checkedItem4 = document.querySelector("#devices > div:nth-child(2) > div:nth-child(4)").addEventListener('change', (e) => {
+    //     let g1 =  document.querySelectorAll("#devices > div:nth-child(2) input[type='checkbox']:checked");
+    //     if(g1.length === gfull.length) {gParnetCheckbox.checked = true} else {gParnetCheckbox.checked = false}
+    // });
+    // let checkedItem5 = document.querySelector("#devices > div:nth-child(2) > div:nth-child(5)").addEventListener('change', (e) => {
+    //     let g1 =  document.querySelectorAll("#devices > div:nth-child(2) input[type='checkbox']:checked");
+    //     if(g1.length === gfull.length) {gParnetCheckbox.checked = true} else {gParnetCheckbox.checked = false}
+    // });
+    // let checkedItem6 = document.querySelector("#devices > div:nth-child(2) > div:nth-child(6)").addEventListener('change', (e) => {
+    //     let g1 =  document.querySelectorAll("#devices > div:nth-child(2) input[type='checkbox']:checked");
+    //     if(g1.length === gfull.length) {gParnetCheckbox.checked = true} else {gParnetCheckbox.checked = false}
+    // });
+    // let checkedItem7 = document.querySelector("#devices > div:nth-child(2) > div:nth-child(7)").addEventListener('change', (e) => {
+    //     let g1 =  document.querySelectorAll("#devices > div:nth-child(2) input[type='checkbox']:checked");
+    //     if(g1.length === gfull.length) {gParnetCheckbox.checked = true} else {gParnetCheckbox.checked = false}
+    // });
+
+    // // ====== group 2 ======= //
+
+
+    // let gfull2 = document.querySelectorAll("#devices > div:nth-child(4) > div");
+    // let gParnetCheckbox2 = document.querySelector('#devices > div:nth-child(3) > input[type="checkbox"]');
+
+    // let checkedItem2_1 = document.querySelector("#devices > div:nth-child(4) > div:nth-child(1)").addEventListener('change', (e) => {
+    //     let g2 =  document.querySelectorAll("#devices > div:nth-child(4) input[type='checkbox']:checked");
+    //     if(g2.length === gfull2.length) {gParnetCheckbox2.checked = true} else {gParnetCheckbox2.checked = false}
+    // });
+    // let checkedItem2_2 = document.querySelector("#devices > div:nth-child(4) > div:nth-child(2)").addEventListener('change', (e) => {
+    //     let g2 =  document.querySelectorAll("#devices > div:nth-child(4) input[type='checkbox']:checked");
+    //     if(g2.length === gfull2.length) {gParnetCheckbox2.checked = true} else {gParnetCheckbox2.checked = false}
+    // });
+    // let checkedItem2_3 = document.querySelector("#devices > div:nth-child(4) > div:nth-child(3)").addEventListener('change', (e) => {
+    //     let g2 =  document.querySelectorAll("#devices > div:nth-child(4) input[type='checkbox']:checked");
+    //     if(g2.length === gfull2.length) {gParnetCheckbox2.checked = true} else {gParnetCheckbox2.checked = false}
+    // });
+    // let checkedItem2_4 = document.querySelector("#devices > div:nth-child(4) > div:nth-child(4)").addEventListener('change', (e) => {
+    //     let g2 =  document.querySelectorAll("#devices > div:nth-child(4) input[type='checkbox']:checked");
+    //     if(g2.length === gfull2.length) {gParnetCheckbox2.checked = true} else {gParnetCheckbox2.checked = false}
+    // });
+    // let checkedItem2_5 = document.querySelector("#devices > div:nth-child(4) > div:nth-child(5)").addEventListener('change', (e) => {
+    //     let g2 =  document.querySelectorAll("#devices > div:nth-child(4) input[type='checkbox']:checked");
+    //     if(g2.length === gfull2.length) {gParnetCheckbox2.checked = true} else {gParnetCheckbox2.checked = false}
+    // });
+    // let checkedItem2_6 = document.querySelector("#devices > div:nth-child(4) > div:nth-child(6)").addEventListener('change', (e) => {
+    //     let g2 =  document.querySelectorAll("#devices > div:nth-child(4) input[type='checkbox']:checked");
+    //     if(g2.length === gfull2.length) {gParnetCheckbox2.checked = true} else {gParnetCheckbox2.checked = false}
+    // });
+    // let checkedItem2_7 = document.querySelector("#devices > div:nth-child(4) > div:nth-child(7)").addEventListener('change', (e) => {
+    //     let g2 =  document.querySelectorAll("#devices > div:nth-child(4) input[type='checkbox']:checked");
+    //     if(g2.length === gfull2.length) {gParnetCheckbox2.checked = true} else {gParnetCheckbox2.checked = false}
+    // });
+
+    // // ====== group 3 ======= //
+
+    // let gfull3 = document.querySelectorAll("#devices > div:nth-child(6) > div");
+    // let gParnetCheckbox3 = document.querySelector('#devices > div:nth-child(5) > input[type="checkbox"]');
+
+    // let checkedItem3_1 = document.querySelector("#devices > div:nth-child(6) > div:nth-child(1)").addEventListener('change', (e) => {
+    //     let g3 =  document.querySelectorAll("#devices > div:nth-child(6) input[type='checkbox']:checked");
+    //     if(g3.length === gfull3.length) {gParnetCheckbox3.checked = true} else {gParnetCheckbox3.checked = false}
+    // });
+    // let checkedItem3_2 = document.querySelector("#devices > div:nth-child(6) > div:nth-child(2)").addEventListener('change', (e) => {
+    //     let g3 =  document.querySelectorAll("#devices > div:nth-child(6) input[type='checkbox']:checked");
+    //     if(g3.length === gfull3.length) {gParnetCheckbox3.checked = true} else {gParnetCheckbox3.checked = false}
+    // });
+    // let checkedItem3_3 = document.querySelector("#devices > div:nth-child(6) > div:nth-child(3)").addEventListener('change', (e) => {
+    //     let g3 =  document.querySelectorAll("#devices > div:nth-child(6) input[type='checkbox']:checked");
+    //     if(g3.length === gfull3.length) {gParnetCheckbox3.checked = true} else {gParnetCheckbox3.checked = false}
+    // });
+    // let checkedItem3_4 = document.querySelector("#devices > div:nth-child(6) > div:nth-child(4)").addEventListener('change', (e) => {
+    //     let g3 =  document.querySelectorAll("#devices > div:nth-child(6) input[type='checkbox']:checked");
+    //     if(g3.length === gfull3.length) {gParnetCheckbox3.checked = true} else {gParnetCheckbox3.checked = false}
+    // });
+    // let checkedItem3_5 = document.querySelector("#devices > div:nth-child(6) > div:nth-child(5)").addEventListener('change', (e) => {
+    //     let g3 =  document.querySelectorAll("#devices > div:nth-child(6) input[type='checkbox']:checked");
+    //     if(g3.length === gfull3.length) {gParnetCheckbox3.checked = true} else {gParnetCheckbox3.checked = false}
+    // });
+    // let checkedItem3_6 = document.querySelector("#devices > div:nth-child(6) > div:nth-child(6)").addEventListener('change', (e) => {
+    //     let g3 =  document.querySelectorAll("#devices > div:nth-child(6) input[type='checkbox']:checked");
+    //     if(g3.length === gfull3.length) {gParnetCheckbox3.checked = true} else {gParnetCheckbox3.checked = false}
+    // });
+    // let checkedItem3_7 = document.querySelector("#devices > div:nth-child(6) > div:nth-child(7)").addEventListener('change', (e) => {
+    //     let g3 =  document.querySelectorAll("#devices > div:nth-child(6) input[type='checkbox']:checked");
+    //     if(g3.length === gfull3.length) {gParnetCheckbox3.checked = true} else {gParnetCheckbox3.checked = false}
+    // });
+
+
+    let ghead1 = document.querySelector('#devices > div:nth-child(1)');
+    let dev1 = document.querySelector('#devices > div:nth-child(2)');
+    let device11 = document.querySelector('#devices > div:nth-child(2) > div:nth-child(1)');
+    let device17 = document.querySelector('#devices > div:nth-child(2) > div:nth-child(7)');
+    let ghead2 = document.querySelector('#devices > div:nth-child(3)');
+    let dev2 = document.querySelector('#devices > div:nth-child(4)');
+    let ghead3 = document.querySelector('#devices > div:nth-child(5)');
+    let dev3 = document.querySelector('#devices > div:nth-child(6)');
+
+
+    appendCheckToChildren();
+        // console.log(devices1)
+        // console.log(devices2)
+        // console.log(devices3)
+}
+
+function CheckboxesAppendCheckToParent(){
+    let gParnetCheckbox = document.querySelector('#devices > div:nth-child(1) > input[type="checkbox"]');
+    let g1 =  document.querySelectorAll("#devices > div:nth-child(2) input[type='checkbox']");
+    gParnetCheckbox.addEventListener('change', () => {
+        if(gParnetCheckbox.checked === true){
+            g1.forEach(d => { d.checked = true}) } else { g1.forEach(d => {d.checked = false}) }
+    })
+}
+
+function caret3Toggle() {
+    let group = document.querySelector('#devices > div:nth-child(6)')
+    console.log('works')
+    group.style.display = 'none';
+    let caret3 = document.querySelector('#devices > div:nth-child(5) > div > i');
+    // console.log(caret3) 
+    let carretDown = document.querySelector('#devices > div:nth-child(5) > div > i')
+    carretDown.style.transform = 'rotate(-90deg)';
+    const groupBar = document.querySelector('#devices > div:nth-child(5)')
+        caret3.addEventListener('click', () => {
+            // console.log('clicked')
+            // const group = document.querySelector('.devices-3');
+            // const carretDown = document.querySelector('.caret-down-3');
+            if (group.style.display === 'none') {
+                group.style.display = 'flex';
+                group.style.transition = '400ms';
+                groupBar.style.borderRadius = '0';
+                carretDown.style.transform = 'rotate(0)';
+                carretDown.style.transition = '300ms'
+            } else {
+                group.style.display = 'none';
+                groupBar.style.borderRadius = '0 0 5px 5px';
+                carretDown.style.transform = 'rotate(-90deg)'
+                carretDown.style.transition = '300ms'
+            }
+        })
+}
+
+function clear(){
+    let checkedInputs = document.querySelectorAll('input[type="checkbox"]:checked');
+    let checkedRadioInputs = document.querySelectorAll('input[type="radio"]:checked');
+    Array.from(checkedInputs).map(item => {
+        item.checked = false;
+    })
+    Array.from(checkedRadioInputs).map(item => {
+        item.checked = false;
+    })
+}
+
+
+//     const carret3 = document.querySelector('.carret3');
+// let carretg3 = document.querySelector('#devices > div:nth-child(5)')
+// console.log(carretg3)
+
+
+//     const clrBtn = document.querySelector('.clrBtn');
+//     clrBtn.addEventListener('click', () => {
+//         console.log('clrBtn works')
+//     });
+
+//     const submit = document.querySelector('.submit');
+//     submit.addEventListener('click', () => {
+//         console.log('submit works')
+//     }); */
