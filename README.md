@@ -9,7 +9,6 @@ Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
 
 # Data-Dashboard
 
-=======
 •	All data for the form is loaded from the ex_data.json in the same folder (attached)
 •	When selecting a device group  - all the devices related to it are selected.
 •	A device group should be checked only if all the related devices are checked.
