@@ -182,7 +182,7 @@ function createSummary() {
     
     elements.forEach(elm => {
         if (elm.checked) {
-            console.log(elm)
+            // console.log(elm)
             summary.innerHTML += templates.summaryDevice.replace("{{device_name}}", elm.dataset.name);
             if(elm.dataset.name !== undefined){
                 Arr1.push(elm.dataset.id);
